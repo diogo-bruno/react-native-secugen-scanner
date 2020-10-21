@@ -1,0 +1,22 @@
+--------- beginning of main
+08-03 20:41:28.467  3658  3734 I QCNEJ   : |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+08-03 20:41:28.468  3658  3734 D QCNEJ   : |CORE| Updating RSSI: -55
+08-03 20:41:28.469  6106  6131 I CarrierServices: [262] cnd.onConnectivityChange: FiST: Wifi connectivity status true
+08-03 20:41:28.471  6106  6269 I CarrierServices: [291] cwy.a: (PEv2-SM): DisabledState: event Connectivity event
+08-03 20:41:28.473  6106  6131 I CarrierServices: [262] cnv.d: Connected state: [1], networkType: [WIFI]
+08-03 20:41:28.474  6106  6286 I CarrierServices: [294] czd.d: RCS Configuration storage in Bugle is disabled by p/h flag, using ProvisioningEngineStateCacheUtil.getProvisioningConfigurationForGivenSim()
+08-03 20:41:31.499  3658  3734 I QCNEJ   : |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+08-03 20:41:31.499  3658  3734 D QCNEJ   : |CORE| Updating RSSI: -57
+08-03 20:41:31.503  6106  6131 I CarrierServices: [262] cnd.onConnectivityChange: FiST: Wifi connectivity status true
+08-03 20:41:31.505  6106  6269 I CarrierServices: [291] cwy.a: (PEv2-SM): DisabledState: event Connectivity event
+08-03 20:41:31.505  6106  6131 I CarrierServices: [262] cnv.d: Connected state: [1], networkType: [WIFI]
+08-03 20:41:31.511  6106  6286 I CarrierServices: [294] czd.d: RCS Configuration storage in Bugle is disabled by p/h flag, using ProvisioningEngineStateCacheUtil.getProvisioningConfigurationForGivenSim()
+08-03 20:41:37.541  3658  3734 I QCNEJ   : |CORE| CNE received action RSSI/Link Changed events: android.net.wifi.RSSI_CHANGED
+08-03 20:41:37.541  3658  3734 D QCNEJ   : |CORE| Updating RSSI: -55
+08-03 20:41:37.544  6106  6131 I CarrierServices: [262] cnd.onConnectivityChange: FiST: Wifi connectivity status true
+08-03 20:41:37.545  6106  6269 I CarrierServices: [291] cwy.a: (PEv2-SM): DisabledState: event Connectivity event
+08-03 20:41:37.546  6106  6131 I CarrierServices: [262] cnv.d: Connected state: [1], networkType: [WIFI]
+08-03 20:41:37.547  6106  6286 I CarrierServices: [294] czd.d: RCS Configuration storage in Bugle is disabled by p/h flag, using ProvisioningEngineStateCacheUtil.getProvisioningConfigurationForGivenSim()
+08-03 20:41:40.119  3689  3689 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+--------- beginning of system
+08-03 20:41:43.174  2757  3168 D BatteryService: uevent={POWER_SUPPLY_VOLTAGE_NOW=4262517, POWER_SUPPLY_CHARGE_RATE=Normal, POWER_SUPPLY_HEALTH=Good, POWER_SUPPLY_CURRENT_NOW=27618, POWER_SUPPLY_PRESENT=1, SUBSYSTEM=power_supply, POWER_SUPPLY_TEMP=305, SEQNUM=723982, ACTION=change, POWER_SUPPLY_NAME=battery, POWER_SUPPLY_STATUS=Charging, POWER_SUPPLY_CHARGE_COUNTER=2832816, POWER_SUPPLY_CAPACITY=93, DEVPATH=/devices/soc/qpnp-smbcharger-17/power_supply/battery}

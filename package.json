@@ -1,0 +1,38 @@
+{
+  "name": "react-native-secugen-scanner",
+  "title": "React Native Secugen Scanner",
+  "version": "1.0.0",
+  "description": "Biometrics with React-Native with external fingerprint scanner ( SecuGen - Fingerprint )",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogo-bruno/react-native-secugen-scanner.git",
+    "baseUrl": "https://github.com/diogo-bruno/react-native-secugen-scanner"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Diogo Bruno Almeida",
+    "email": "diogo.bruno2@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
