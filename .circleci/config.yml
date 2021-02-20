@@ -16,11 +16,8 @@ jobs:
           name: Npm install
           command: npm install
       - run:
-          name: Npm install
-          command: cd ./example/ && npm install          
-      - run:
           name: Download Dependencies
-          command: cd ./example/android/ && sudo chmod +x ./gradlew && ./gradlew androidDependencies
+          command: cd ./android/ && sudo chmod +x ./gradlew && ./gradlew androidDependencies
       - run:
           name: Build
-          command: cd ./example/android/ && sudo chmod +x ./gradlew && ./gradlew build
+          command: cd ./android/ && sudo chmod +x ./gradlew && ./gradlew build
