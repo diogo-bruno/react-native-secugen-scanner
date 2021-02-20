@@ -10,4 +10,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command: cd ./example/android/ && ./gradlew build
+          command: cd ./example/android/ && sudo chmod +x ./gradlew && ./gradlew build
