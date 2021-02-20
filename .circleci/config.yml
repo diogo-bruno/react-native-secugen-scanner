@@ -10,6 +10,9 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Yarn install
+          command: yarn install
+      - run:
           name: Download Dependencies
           command: cd ./example/android/ && sudo chmod +x ./gradlew && ./gradlew androidDependencies
       - run:
