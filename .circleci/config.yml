@@ -10,4 +10,8 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Download Dependencies
+          command: cd ./example/android/ && sudo chmod +x ./gradlew && ./gradlew androidDependencies
+      - run:
+          name: Build
           command: cd ./example/android/ && sudo chmod +x ./gradlew && ./gradlew build
