@@ -2,7 +2,6 @@ version: 2.1
 
 orbs:
   android: circleci/android@0.2.1
-  node: circleci/node@4.0.0
 
 jobs:
   build:
@@ -10,6 +9,9 @@ jobs:
     
     steps:
       - checkout
+      - run:
+          name: Install Node
+          command: curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash - && sudo apt-get install -y nodejs     
       - run:
           name: Install Yarn
           command: curl -o- -L https://yarnpkg.com/install.sh | bash
