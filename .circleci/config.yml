@@ -18,6 +18,6 @@ jobs:
       - run:
           name: Download Dependencies
           command: cd ./android/ && sudo chmod +x ./gradlew && ./gradlew androidDependencies
-      - run:
-          name: Build
-          command: cd ./android/ && sudo chmod +x ./gradlew && ./gradlew build
+      #- run:
+      #    name: Build
+      #    command: cd ./android/ && sudo chmod +x ./gradlew && ./gradlew build
